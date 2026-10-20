@@ -83,7 +83,7 @@ function Index() {
     e.preventDefault();
     const dados = Object.fromEntries(new FormData(e.currentTarget)) as Record<string, string>;
     const r = schema.safeParse(dados);
-    if (!r.success) return setErro(r.error.issues[0].message);
+    if (!r.success) return setErro(r.error.issues[0]?.message ?? "Verifique os campos");
     setErro("");
     const d = r.data;
     const msg = `Olá! Quero agendar:\nNome: ${d.nome}\nTelefone: ${d.telefone}\nServiço: ${d.servico}\nBarbeiro: ${d.barbeiro}\nData: ${d.data.split("-").reverse().join("/")} às ${d.hora}`;
