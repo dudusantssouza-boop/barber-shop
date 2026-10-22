@@ -140,7 +140,7 @@ function Index() {
           <div className="mt-3 flex flex-wrap gap-2">
             {pagamentos.map((p) => <span key={p} className="rounded-full border border-primary px-4 py-1 text-sm text-primary">{p}</span>)}
           </div>
-          <p className="mt-3 text-sm text-muted-foreground">Pagando no Pix, 8% de desconto em qualquer serviço.</p>
+          <p className="mt-3 text-sm text-muted-foreground">Pagando no Pix, 5% de desconto em qualquer serviço.</p>
         </div>
       </section>
 
