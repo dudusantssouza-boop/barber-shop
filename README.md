@@ -1,4 +1,4 @@
-# Respeito Chairside Bookings
+# Barber
 
 Crie um site completo e responsivo para uma barbearia chamada [NOME DA BARBEARIA].
 
