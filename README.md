@@ -1,6 +1,7 @@
 # Barber
 
 Crie um site completo e responsivo para uma barbearia chamada [NOME DA BARBEARIA].
+E uma boa sorte.
 
 Seções:
 
